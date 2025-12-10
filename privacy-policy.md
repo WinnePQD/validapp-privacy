@@ -1,125 +1,127 @@
-Política de Privacidade — ValidApp
+# Política de Privacidade — ValidApp
 
-Última atualização: [09/12/2025]
+**Última atualização: 09/12/2025**
 
-O ValidApp respeita a sua privacidade e está comprometido em proteger os dados que você fornece ao utilizar o aplicativo. Esta Política de Privacidade explica como coletamos, utilizamos, armazenamos e protegemos suas informações.
+O ValidApp respeita sua privacidade e está comprometido com a proteção dos seus dados.  
+Esta Política de Privacidade descreve como coletamos, utilizamos, armazenamos e protegemos as informações fornecidas pelo usuário.
 
-Ao usar o ValidApp, você concorda com os termos descritos nesta política.
+Ao utilizar o ValidApp, você concorda com os termos desta política.
 
-1. Informações coletadas
-1.1 Informações fornecidas pelo usuário
+---
 
-O aplicativo coleta as seguintes informações inseridas diretamente pelo usuário e armazenadas no interno do app :
+## 1. Informações Coletadas
 
-Dados de produtos cadastrados (nome, data de validade, categoria, etc.)
+### 1.1 Dados fornecidos pelo usuário
+O aplicativo coleta e armazena localmente no dispositivo:
 
-Fotos tiradas dos produtos
+- Informações de produtos cadastrados (nome, validade, categoria etc.)
+- Fotos tiradas pelo usuário dos produtos
 
-Esses dados são usados exclusivamente para o funcionamento do aplicativo.
+Esses dados ficam somente no armazenamento interno do aplicativo.
 
-1.2 Uso da câmera
+### 1.2 Uso da câmera
+O app solicita acesso à câmera para:
 
-O ValidApp solicita acesso à câmera para:
+- Ler códigos de barras  
+- Tirar fotos para registrar produtos  
 
-Escanear códigos de barras
+Nenhuma imagem é enviada para servidores externos sem ação do usuário.
 
-Tirar fotos de produtos para o registro interno
+### 1.3 Imagens baixadas da internet
+O ValidApp busca automaticamente imagens públicas de produtos na internet com base no código de barras.  
+As imagens são armazenadas apenas no dispositivo e não são enviadas a terceiros.
 
-Nenhuma imagem é enviada a servidores externos, exceto quando o usuário escolhe salvar no aplicativo.
+### 1.4 Dados de login
+O usuário pode criar um login e senha para acessar o app.  
+Esses dados são:
 
-1.3 Download de imagens da internet
+- Armazenados no dispositivo para login automático  
+- Armazenados no Firebase (Authentication/Database) para sincronização da conta  
 
-O aplicativo busca automaticamente a imagem do produto na internet com base no código de barras.
-Essas imagens são baixadas e armazenadas apenas localmente, no armazenamento interno do aplicativo.
+As senhas são tratadas de forma segura.
 
-1.4 Dados de login e autenticação
+---
 
-O usuário cria um login e senha.
-Essas informações são:
+## 2. Uso das Informações
 
-Salvas localmente no app, para login automático
+Os dados coletados são usados exclusivamente para:
 
-Armazenadas no Firebase, para sincronização e autenticação
+- Realizar login e autenticação do usuário  
+- Registrar, consultar e organizar produtos  
+- Escanear códigos de barras  
+- Exibir imagens de produtos  
+- Sincronizar informações básicas da conta com Firebase  
 
-As senhas são armazenadas de forma segura.
+**Nenhum dado é vendido, compartilhado ou enviado a terceiros para fins comerciais.**
 
-2. Como utilizamos as informações
+---
 
-As informações coletadas são utilizadas exclusivamente para:
-
-Permitir login seguro
-
-Permitir cadastro e consulta de produtos
-
-Escanear códigos de barras
-
-Exibir imagens dos produtos
-
-Garantir que o histórico do usuário seja preservado no dispositivo
-
-Sincronizar login com Firebase
-
-Nenhuma informação é vendida, compartilhada ou cedida a terceiros.
-
-3. Armazenamento e segurança
+## 3. Armazenamento e Segurança
 
 O ValidApp utiliza:
 
-Armazenamento interno do dispositivo para fotos e dados dos produtos
+- **Armazenamento interno do dispositivo** para dados e imagens dos produtos  
+- **Firebase** para autenticação e sincronização do usuário  
 
-Firebase para sincronização do login
+Medidas de segurança adotadas:
 
-Medidas de proteção incluem:
+- Acesso ao app protegido por senha criada pelo usuário  
+- Regras de segurança do Firebase  
+- Armazenamento interno privado do app (sandbox)  
 
-Acesso protegido por senha criada pelo usuário
+Nenhum dado sensível é enviado para serviços externos além do necessário para autenticação.
 
-Regras de acesso do Firebase
+---
 
-Armazenamento interno isolado do aplicativo
+## 4. Compartilhamento de Dados
 
-Nenhum dado sensível é enviado para terceiros
+O ValidApp **não compartilha** dados pessoais com terceiros.  
+Os únicos serviços externos utilizados são:
 
-4. Compartilhamento de dados
+- **Firebase Authentication**  
+- **Firebase Realtime Database**
 
-O ValidApp não compartilha dados pessoais com terceiros.
-Os únicos serviços externos usados são:
+Usados exclusivamente para login e proteção da conta.
 
-Firebase Authentication e Database — apenas para login, autenticação e armazenamento seguro do usuário
+---
 
-Não há compartilhamento de informações com outras empresas, anunciantes ou redes de anúncios.
+## 5. Retenção e Exclusão de Dados
 
-5. Retenção e exclusão de dados
+O usuário pode solicitar a exclusão da conta e dos dados armazenados no Firebase pelo contato oficial.  
+Os dados armazenados localmente podem ser apagados excluindo o aplicativo do dispositivo.
 
-O usuário pode solicitar a exclusão da conta e dos dados armazenados no Firebase através do contato abaixo.
-Dados salvos localmente no aplicativo podem ser apagados manualmente pelo usuário excluindo o app.
+---
 
-6. Crianças e menores de idade
+## 6. Crianças e Menores de Idade
 
-O ValidApp não é recomendado para menores de 18 anos.
+O ValidApp não é destinado a menores de 18 anos.  
 Não coletamos intencionalmente dados de menores.
 
-7. Permissões usadas pelo app
+---
+
+## 7. Permissões Utilizadas
 
 O aplicativo utiliza as seguintes permissões:
 
-Câmera (android.permission.CAMERA)
+- **Câmera (android.permission.CAMERA)**  
+  Necessária para leitura de códigos de barras e captura de imagens.
 
-Necessária para escanear códigos de barras e tirar fotos
+- **Armazenamento interno do aplicativo**  
+  Usado para salvar imagens e informações dos produtos.
 
-Armazenamento interno (acesso interno do app)
+Nenhuma permissão adicional é solicitada sem necessidade.
 
-Para salvar fotos e informações de produtos
+---
 
-Nenhuma outra permissão sensível é utilizada sem necessidade.
+## 8. Alterações
 
-8. Alterações nesta Política
+Esta Política pode ser atualizada periodicamente.  
+A versão mais recente estará sempre disponível no link oficial do desenvolvedor.
 
-Podemos atualizar esta Política de Privacidade periodicamente.
-A versão mais recente estará sempre disponível no link oficial publicado pelo desenvolvedor.
+---
 
-9. Contato
+## 9. Contato
 
 Para dúvidas, solicitações ou exclusão de dados, entre em contato:
 
-E-mail do desenvolvedor:
-👉 winneengenharia@gmail.com
+📧 **winneengenharia@gmail.com**
